@@ -114,7 +114,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // 按键阵列配置
 #define MATRIX_ROWS 5 /* 硬件阵列行数 */
 #define MATRIX_COLS 15 /* 硬件阵列列数 */
-static const uint8_t row_pin_array[MATRIX_ROWS] = { 20, 19, 18, 13, 12 };
+//static const uint8_t row_pin_array[MATRIX_ROWS] = { 20, 19, 18, 13, 12 };
+//static const uint8_t column_pin_array[MATRIX_COLS] = { 17, 21, 22, 23, 24, 25, 28, 29, 30, 26, 27, 4, 10, 14, 15 };
+static const uint8_t row_pin_array[MATRIX_ROWS] = { 20 };
 static const uint8_t column_pin_array[MATRIX_COLS] = { 17, 21, 22, 23, 24, 25, 28, 29, 30, 26, 27, 4, 10, 14, 15 };
 #define ROW_IN // 键盘阵列的二极管方向是从COL->ROW
 
