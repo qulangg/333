@@ -28,8 +28,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define CONF_VENDOR_ID 0x3613 /* 配置协议使用的VendorID */
 #define CONF_PRODUCT_ID 0x1228 /* 配置协议使用的ProductID */
 #define DEVICE_VER 0x0000 /* 硬件版本 */
-#define MANUFACTURER "AMX123" /* 硬件制造商，用于USB和蓝牙显示 */
-#define PRODUCT "2HKB60" /* 硬件名称，用于USB和蓝牙显示 */
+#define MANUFACTURER "QuLang" /* 硬件制造商，用于USB和蓝牙显示 */
+#define PRODUCT "Point Test" /* 硬件名称，用于USB和蓝牙显示 */
 #define MACADDR_SEPRATOR '_' /* 蓝牙名称后地址的分隔符。若不设置则不显示蓝牙名称后面的地址 */
 
 /* USB HID report parameter */
